@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Product } from '../product';
 
 @Component({
-  selector: 'app-product',
-  templateUrl: './product.component.html',
-  styleUrl: './product.component.css'
+  selector: 'app-products-table',
+  templateUrl: './products-table.component.html',
+  styleUrl: './products-table.component.css'
 })
-export class ProductComponent {
+export class ProductsTableComponent {
     products: Product[] = [
       { "id": 1,
         "name": "Celtinha 2024",
